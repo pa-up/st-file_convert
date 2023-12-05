@@ -1,0 +1,61 @@
+import numpy as np
+
+ocr_language_options = np.array([
+    ["Japanese（英語も可）" , "jpn"] ,
+    ["Japanese（縦書き）" , "jpn_vert"] ,
+    ["English" , "eng"] ,
+    ["Spanish" , "spa"] ,
+    ["French" , "fra"] ,
+    ["German" , "deu"] ,
+    ["Italian" , "ita"] ,
+    ["Chinese (Simplified)" , "chi_sim"] ,
+    ["Chinese (Traditional)" , "chi_tra"] ,
+    ["Korean" , "kor"] ,
+    ["Russian" , "rus"] ,
+])
+
+deepl_language_options = np.array([
+    ["Japanese" , "ja"] ,
+    ["English" , "en"] ,
+    ["Spanish" , "es"] ,
+    ["French" , "fr"] ,
+    ["German" , "de"] ,
+    ["Italian" , "it"] ,
+    ["Chinese (Simplified)" , "zh"] ,
+    ["Korean" , "ko"] ,
+    ["Russian" , "ru"] ,
+])
+
+google_translate_language_options = np.array([
+    ["auto", "auto"],
+    ["Japanese", "ja"],
+    ["English", "en"],
+    ["Spanish", "es"],
+    ["Portuguese", "pt"],
+    ["German", "de"],
+    ["French", "fr"],
+    ["Italian", "it"],
+    ["Russian", "ru"],
+    ["Arabic", "ar"],
+    ["Turkish", "tr"],
+    ["Korean", "ko"],
+    ["Chinese (Simplified)", "zh-CN"],
+    ["Chinese (Traditional)", "zh-TW"],
+    ["Hindi", "hi"],
+    ["Bengali", "bn"],
+    ["Ukrainian", "uk"],
+    ["Greek", "el"],
+    ["Dutch", "nl"],
+    ["Czech", "cs"],
+    ["Polish", "pl"],
+    ["Thai", "th"],
+    ["Swedish", "sv"],
+    ["Romanian", "ro"],
+    ["Finnish", "fi"],
+    ["Norwegian", "no"],
+    ["Danish", "da"],
+    ["Croatian", "hr"],
+    ["Indonesian", "id"],
+    ["Filipino", "tl"],
+    ["Vietnamese", "vi"]
+])

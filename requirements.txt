@@ -1,0 +1,5 @@
+streamlit
+deep-translator 
+python-docx  
+pdf2docx 
+docx2pdf
