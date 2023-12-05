@@ -8,7 +8,6 @@ import docx
 from pdf2docx.main import parse
 from docx2pdf import convert
 import sys
-
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
