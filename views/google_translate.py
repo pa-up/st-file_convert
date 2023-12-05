@@ -12,16 +12,11 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
 
-# このアプリフォルダの絶対パスを取得
-this_file_abspath = os.path.abspath(sys.argv[0])
-last_slash_index = this_file_abspath.rfind("/")  # 最後の '/' のインデックスを取得
-this_app_root_abspath = this_file_abspath[:last_slash_index]
-
 # 外部ファイルとの通信用ファイル
-input_pdf_path = os.path.join(this_app_root_abspath, "media/pdf/input.pdf")
-input_word_path = os.path.join(this_app_root_abspath, "media/word/input.docx")
-output_pdf_path = os.path.join(this_app_root_abspath, "media/pdf/output.pdf")
-output_word_path = os.path.join(this_app_root_abspath, "media/word/output.docx")
+input_pdf_path = "media/pdf/input.pdf"
+input_word_path = "media/word/input.docx"
+output_pdf_path = "media/pdf/output.pdf"
+output_word_path = "media/word/output.docx"
 
 
 def create_or_remove_folder(path):
