@@ -13,10 +13,10 @@ from reportlab.lib.pagesizes import letter
 
 
 # 外部ファイルとの通信用ファイル
-input_pdf_path = "../media/pdf/input.pdf"
-input_word_path = "../media/word/input.docx"
-output_pdf_path = "../media/pdf/output.pdf"
-output_word_path = "../media/word/output.docx"
+input_pdf_path = "./media/pdf/input.pdf"
+input_word_path = "./media/word/input.docx"
+output_pdf_path = "./media/pdf/output.pdf"
+output_word_path = "./media/word/output.docx"
 
 
 def create_or_remove_folder(path):
